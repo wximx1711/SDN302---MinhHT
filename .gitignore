@@ -1,0 +1,12 @@
+node_modules/
+**/node_modules/
+package-lock.json
+**/package-lock.json
+.env
+.env.*
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+yarn-debug.log*
+test-runner.js

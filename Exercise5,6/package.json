@@ -1,0 +1,23 @@
+{
+  "name": "exercise5-6",
+  "version": "1.0.0",
+  "description": "SDN302 Exercise 5 and Exercise 6 - Node.js & Express RESTful API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "ex5": "node exercise5.js",
+    "ex6": "node app.js"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "crud",
+    "rest-api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

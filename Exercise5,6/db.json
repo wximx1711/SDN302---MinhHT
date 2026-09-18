@@ -1,0 +1,22 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "Introduction to Node.js",
+      "duration": "12:45",
+      "uploader": "John Doe"
+    },
+    {
+      "id": 2,
+      "title": "Express.js RESTful API Tutorial",
+      "duration": "24:10",
+      "uploader": "Jane Smith"
+    },
+    {
+      "id": 3,
+      "title": "Mastering Asynchronous JavaScript",
+      "duration": "18:30",
+      "uploader": "Code Master"
+    }
+  ]
+}
