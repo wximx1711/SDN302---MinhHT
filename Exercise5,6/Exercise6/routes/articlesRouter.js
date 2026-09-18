@@ -15,7 +15,7 @@ router.route('/')
     next();
   })
   .get((req, res) => {
-    // Chuẩn đề bài test Postman:
+    // Chuẩn theo ảnh kết quả Postman của đề bài:
     res.end('Will send all the articles to you!');
   })
   .post((req, res) => {
@@ -31,7 +31,7 @@ router.route('/')
     });
 
     res.statusCode = 201;
-    // Chuẩn từng chữ theo screenshot Postman của đề bài:
+    // Chuẩn từng chữ theo screenshot Postman của đề:
     res.end(`Will add the article: ${title} with details: ${text} and ${date}`);
   })
   .put((req, res) => {

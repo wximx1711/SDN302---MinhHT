@@ -1,0 +1,13 @@
+{
+  "name": "exercise6",
+  "version": "1.0.0",
+  "description": "SDN302 Exercise 6 - Express Router, CRUD and File IO",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

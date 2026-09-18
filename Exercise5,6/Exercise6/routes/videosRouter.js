@@ -5,13 +5,13 @@ const path = require('path');
 
 const DB_FILE = path.join(__dirname, '..', 'db.json');
 
-// Helper function để đọc db.json
+// Helper đọc db.json
 async function readDB() {
   const data = await fs.readFile(DB_FILE, 'utf-8');
   return JSON.parse(data);
 }
 
-// Helper function để ghi db.json
+// Helper ghi db.json
 async function writeDB(data) {
   await fs.writeFile(DB_FILE, JSON.stringify(data, null, 2), 'utf-8');
 }
@@ -26,7 +26,7 @@ router.get('/', async (req, res) => {
   }
 });
 
-// GET /videos/:id - Lấy chi tiết video theo id
+// GET /videos/:id - Lấy chi tiết video theo ID (404 nếu không tìm thấy)
 router.get('/:id', async (req, res) => {
   try {
     const videoId = parseInt(req.params.id, 10);
@@ -43,7 +43,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-// POST /videos - Thêm video mới
+// POST /videos - Thêm video mới (201 Created)
 router.post('/', async (req, res) => {
   try {
     const { title, duration, uploader } = req.body;
@@ -74,7 +74,7 @@ router.post('/', async (req, res) => {
   }
 });
 
-// PUT /videos/:id - Cập nhật video theo id
+// PUT /videos/:id - Cập nhật video theo ID
 router.put('/:id', async (req, res) => {
   try {
     const videoId = parseInt(req.params.id, 10);
@@ -101,7 +101,7 @@ router.put('/:id', async (req, res) => {
   }
 });
 
-// DELETE /videos/:id - Xóa video theo id
+// DELETE /videos/:id - Xóa video theo ID
 router.delete('/:id', async (req, res) => {
   try {
     const videoId = parseInt(req.params.id, 10);

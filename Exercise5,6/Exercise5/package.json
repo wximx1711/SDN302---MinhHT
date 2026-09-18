@@ -1,0 +1,12 @@
+{
+  "name": "exercise5",
+  "version": "1.0.0",
+  "description": "SDN302 Exercise 5 - Simple Express Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
