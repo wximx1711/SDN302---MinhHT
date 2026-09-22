@@ -50,6 +50,13 @@
       "author": "Le Thi H",
       "content": "REST API is an important topic for backend development.",
       "date": "2026-09-06"
+    },
+    {
+      "id": 6,
+      "articleId": 2,
+      "author": "Minh",
+      "content": "Bình luận vào bài viết số 2",
+      "date": "2026-09-22"
     }
   ]
 }
