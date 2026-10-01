@@ -1,0 +1,72 @@
+[
+  {
+    "courseCode": "IT201",
+    "courseName": "Database Systems",
+    "credits": 3,
+    "major": "Information Technology",
+    "semester": "2025-2026-1"
+  },
+  {
+    "courseCode": "IT202",
+    "courseName": "Web Programming",
+    "credits": 3,
+    "major": "Information Technology",
+    "semester": "2025-2026-1"
+  },
+  {
+    "courseCode": "IT203",
+    "courseName": "Computer Networks",
+    "credits": 3,
+    "major": "Information Technology",
+    "semester": "2025-2026-1"
+  },
+  {
+    "courseCode": "IT204",
+    "courseName": "Software Engineering",
+    "credits": 3,
+    "major": "Information Technology",
+    "semester": "2025-2026-1"
+  },
+  {
+    "courseCode": "CS101",
+    "courseName": "Introduction to Computer Science",
+    "credits": 3,
+    "major": "Computer Science",
+    "semester": "2025-2026-1"
+  },
+  {
+    "courseCode": "CS202",
+    "courseName": "Data Structures and Algorithms",
+    "credits": 4,
+    "major": "Computer Science",
+    "semester": "2025-2026-1"
+  },
+  {
+    "courseCode": "CS203",
+    "courseName": "Artificial Intelligence",
+    "credits": 3,
+    "major": "Computer Science",
+    "semester": "2025-2026-1"
+  },
+  {
+    "courseCode": "BA201",
+    "courseName": "Principles of Marketing",
+    "credits": 3,
+    "major": "Business Administration",
+    "semester": "2025-2026-1"
+  },
+  {
+    "courseCode": "BA202",
+    "courseName": "Business Management",
+    "credits": 3,
+    "major": "Business Administration",
+    "semester": "2025-2026-1"
+  },
+  {
+    "courseCode": "BA203",
+    "courseName": "Business Statistics",
+    "credits": 3,
+    "major": "Business Administration",
+    "semester": "2025-2026-1"
+  }
+]

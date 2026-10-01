@@ -1,0 +1,266 @@
+[
+  {
+    "enrollmentCode": "EN001",
+    "studentCode": "SV001",
+    "courseCode": "IT201",
+    "semester": "2025-2026-1",
+    "score": 8.2,
+    "grade": "B+"
+  },
+  {
+    "enrollmentCode": "EN002",
+    "studentCode": "SV001",
+    "courseCode": "IT202",
+    "semester": "2025-2026-1",
+    "score": 8.8,
+    "grade": "A"
+  },
+  {
+    "enrollmentCode": "EN003",
+    "studentCode": "SV001",
+    "courseCode": "IT203",
+    "semester": "2025-2026-1",
+    "score": 7.6,
+    "grade": "B"
+  },
+  {
+    "enrollmentCode": "EN004",
+    "studentCode": "SV002",
+    "courseCode": "IT201",
+    "semester": "2025-2026-1",
+    "score": 9.1,
+    "grade": "A"
+  },
+  {
+    "enrollmentCode": "EN005",
+    "studentCode": "SV002",
+    "courseCode": "IT204",
+    "semester": "2025-2026-1",
+    "score": 8.7,
+    "grade": "A"
+  },
+  {
+    "enrollmentCode": "EN006",
+    "studentCode": "SV002",
+    "courseCode": "IT202",
+    "semester": "2025-2026-1",
+    "score": 9.3,
+    "grade": "A+"
+  },
+  {
+    "enrollmentCode": "EN007",
+    "studentCode": "SV003",
+    "courseCode": "CS101",
+    "semester": "2025-2026-1",
+    "score": 7.5,
+    "grade": "B"
+  },
+  {
+    "enrollmentCode": "EN008",
+    "studentCode": "SV003",
+    "courseCode": "CS202",
+    "semester": "2025-2026-1",
+    "score": 8.0,
+    "grade": "B+"
+  },
+  {
+    "enrollmentCode": "EN009",
+    "studentCode": "SV003",
+    "courseCode": "CS203",
+    "semester": "2025-2026-1",
+    "score": 7.2,
+    "grade": "B"
+  },
+  {
+    "enrollmentCode": "EN010",
+    "studentCode": "SV004",
+    "courseCode": "BA201",
+    "semester": "2025-2026-1",
+    "score": 8.5,
+    "grade": "A-"
+  },
+  {
+    "enrollmentCode": "EN011",
+    "studentCode": "SV004",
+    "courseCode": "BA202",
+    "semester": "2025-2026-1",
+    "score": 7.8,
+    "grade": "B+"
+  },
+  {
+    "enrollmentCode": "EN012",
+    "studentCode": "SV004",
+    "courseCode": "BA203",
+    "semester": "2025-2026-1",
+    "score": 8.9,
+    "grade": "A"
+  },
+  {
+    "enrollmentCode": "EN013",
+    "studentCode": "SV005",
+    "courseCode": "IT201",
+    "semester": "2025-2026-1",
+    "score": 6.5,
+    "grade": "C+"
+  },
+  {
+    "enrollmentCode": "EN014",
+    "studentCode": "SV005",
+    "courseCode": "IT203",
+    "semester": "2025-2026-1",
+    "score": 7.0,
+    "grade": "B"
+  },
+  {
+    "enrollmentCode": "EN015",
+    "studentCode": "SV005",
+    "courseCode": "IT204",
+    "semester": "2025-2026-1",
+    "score": 6.8,
+    "grade": "C+"
+  },
+  {
+    "enrollmentCode": "EN016",
+    "studentCode": "SV006",
+    "courseCode": "CS101",
+    "semester": "2025-2026-1",
+    "score": 9.3,
+    "grade": "A+"
+  },
+  {
+    "enrollmentCode": "EN017",
+    "studentCode": "SV006",
+    "courseCode": "CS202",
+    "semester": "2025-2026-1",
+    "score": 9.0,
+    "grade": "A"
+  },
+  {
+    "enrollmentCode": "EN018",
+    "studentCode": "SV006",
+    "courseCode": "CS203",
+    "semester": "2025-2026-1",
+    "score": 9.5,
+    "grade": "A+"
+  },
+  {
+    "enrollmentCode": "EN019",
+    "studentCode": "SV007",
+    "courseCode": "BA201",
+    "semester": "2025-2026-1",
+    "score": 7.4,
+    "grade": "B"
+  },
+  {
+    "enrollmentCode": "EN020",
+    "studentCode": "SV007",
+    "courseCode": "BA202",
+    "semester": "2025-2026-1",
+    "score": 8.1,
+    "grade": "B+"
+  },
+  {
+    "enrollmentCode": "EN021",
+    "studentCode": "SV008",
+    "courseCode": "IT201",
+    "semester": "2025-2026-1",
+    "score": 9.6,
+    "grade": "A+"
+  },
+  {
+    "enrollmentCode": "EN022",
+    "studentCode": "SV008",
+    "courseCode": "IT202",
+    "semester": "2025-2026-1",
+    "score": 9.2,
+    "grade": "A+"
+  },
+  {
+    "enrollmentCode": "EN023",
+    "studentCode": "SV008",
+    "courseCode": "IT204",
+    "semester": "2025-2026-1",
+    "score": 9.0,
+    "grade": "A"
+  },
+  {
+    "enrollmentCode": "EN024",
+    "studentCode": "SV009",
+    "courseCode": "CS101",
+    "semester": "2025-2026-1",
+    "score": 6.8,
+    "grade": "C+"
+  },
+  {
+    "enrollmentCode": "EN025",
+    "studentCode": "SV009",
+    "courseCode": "CS202",
+    "semester": "2025-2026-1",
+    "score": 7.1,
+    "grade": "B"
+  },
+  {
+    "enrollmentCode": "EN026",
+    "studentCode": "SV010",
+    "courseCode": "BA201",
+    "semester": "2025-2026-1",
+    "score": 8.8,
+    "grade": "A"
+  },
+  {
+    "enrollmentCode": "EN027",
+    "studentCode": "SV010",
+    "courseCode": "BA202",
+    "semester": "2025-2026-1",
+    "score": 9.0,
+    "grade": "A"
+  },
+  {
+    "enrollmentCode": "EN028",
+    "studentCode": "SV010",
+    "courseCode": "BA203",
+    "semester": "2025-2026-1",
+    "score": 8.4,
+    "grade": "A-"
+  },
+  {
+    "enrollmentCode": "EN029",
+    "studentCode": "SV011",
+    "courseCode": "IT201",
+    "semester": "2025-2026-1",
+    "score": 7.3,
+    "grade": "B"
+  },
+  {
+    "enrollmentCode": "EN030",
+    "studentCode": "SV011",
+    "courseCode": "IT203",
+    "semester": "2025-2026-1",
+    "score": 7.8,
+    "grade": "B+"
+  },
+  {
+    "enrollmentCode": "EN031",
+    "studentCode": "SV012",
+    "courseCode": "CS101",
+    "semester": "2025-2026-1",
+    "score": 8.9,
+    "grade": "A"
+  },
+  {
+    "enrollmentCode": "EN032",
+    "studentCode": "SV012",
+    "courseCode": "CS202",
+    "semester": "2025-2026-1",
+    "score": 9.1,
+    "grade": "A"
+  },
+  {
+    "enrollmentCode": "EN033",
+    "studentCode": "SV012",
+    "courseCode": "CS203",
+    "semester": "2025-2026-1",
+    "score": 8.7,
+    "grade": "A"
+  }
+]
