@@ -20,6 +20,20 @@
       "content": "Deep dive into Node.js event loop.",
       "author": "Minh",
       "date": "2026-09-22"
+    },
+    {
+      "id": 5,
+      "title": "Học NodeJS và Express",
+      "content": "Đây là nội dung hướng dẫn tạo RESTful API.",
+      "author": "Hồ Tuấn Minh",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 6,
+      "title": "Getting Started with Express",
+      "content": "Express is a web framework for Node.js.",
+      "author": "Tran Thi B",
+      "date": "2026-09-02"
     }
   ],
   "comments": [
@@ -57,6 +71,20 @@
       "author": "Minh",
       "content": "Bình luận vào bài viết số 2",
       "date": "2026-09-22"
+    },
+    {
+      "id": 7,
+      "articleId": 2,
+      "author": "Hồ Tuấn Minh",
+      "content": "Bài viết này rất hay và dễ hiểu!",
+      "date": "2026-09-25"
+    },
+    {
+      "id": 8,
+      "articleId": 2,
+      "author": "Hồ Tuấn Minh",
+      "content": "Bài viết này rất hay và dễ hiểu!",
+      "date": "2026-09-25"
     }
   ]
 }
