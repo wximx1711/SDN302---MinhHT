@@ -1,0 +1,25 @@
+{
+  "name": "exercise-nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "Exercise NodeJS và MongoDB - CRUD Collection Students (se1900_db)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node scripts/seed.js",
+    "crud:demo": "node scripts/crudDemo.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "mongoose",
+    "crud",
+    "express"
+  ],
+  "author": "MinhHT",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
