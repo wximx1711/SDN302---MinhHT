@@ -1,7 +1,7 @@
 const Book = require('../models/Book');
 const Member = require('../models/Member');
 const Loan = require('../models/Loan');
-const { fail, validId, bodyFields } = require('../middleware/errors');
+const { fail, validId, bodyFields } = require('./validation');
 const populated = query => query.populate('member_id', 'fullName email membershipType isActive').populate('items.book_id', 'title author isbn');
 exports.list = async (req, res) => res.json(await populated(Loan.find()));
 exports.byMember = async (req, res) => {

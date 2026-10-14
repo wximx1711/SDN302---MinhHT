@@ -1,6 +1,6 @@
 const Book = require('../models/Book');
 const Loan = require('../models/Loan');
-const { fail, validId, bodyFields } = require('../middleware/errors');
+const { fail, validId, bodyFields } = require('./validation');
 const fields = ["title","author","category","isbn","publishedYear","totalCopies","availableCopies"];
 
 exports.list = async (req, res) => res.json(await Book.find());

@@ -1,5 +1,4 @@
 const express = require('express');
-const { errorHandler } = require('./middleware/errors');
 const app = express();
 app.use(express.json({ limit: '100kb' }));
 app.get('/', (req, res) => res.json({
@@ -15,5 +14,13 @@ app.get('/', (req, res) => res.json({
 }));
 app.use('/api', require('./routes'));
 app.use((req, res) => res.status(404).json({ message: 'Route not found' }));
+function errorHandler(error, req, res, next) {
+  let status = error.status || 500;
+  if (['ValidationError', 'CastError', 'StrictModeError'].includes(error.name)) status = 400;
+  if (error.code === 11000 || error.name === 'VersionError') status = 409;
+  let message = error.code === 11000 ? 'Duplicate value for ' + Object.keys(error.keyPattern || {}).join(', ') : error.message;
+  if (status === 500) { console.error(error); message = 'Internal server error'; }
+  res.status(status).json({ message });
+}
 app.use(errorHandler);
 module.exports = app;

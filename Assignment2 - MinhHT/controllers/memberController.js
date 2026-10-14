@@ -1,6 +1,6 @@
 const Member = require('../models/Member');
 const Loan = require('../models/Loan');
-const { fail, validId, bodyFields } = require('../middleware/errors');
+const { fail, validId, bodyFields } = require('./validation');
 const fields = ["fullName","email","phone","membershipType","isActive"];
 
 exports.list = async (req, res) => res.json(await Member.find());
